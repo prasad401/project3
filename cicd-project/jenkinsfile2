@@ -3,4 +3,8 @@ agent anyone
       stages{
       stage('git checkout'){
         steps{
-	   checkout scmGIT(branches: [[name:
+	  echo 'git commands"
+	  }
+	}
+     }
+ }    

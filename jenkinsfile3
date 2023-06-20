@@ -1,0 +1,10 @@
+pipeline {
+   agentany 
+       stages{
+           stage( "hi" ){
+             step{
+                echo "hi prasad"
+             }
+         }
+     }    
+}    
