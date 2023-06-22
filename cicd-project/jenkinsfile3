@@ -4,13 +4,12 @@ pipeline{
          stage ( 'execute jenkins' ){
 	  step{
 	       echo 'hello jenkins'
-          stage( 'examine jenkins' ){
-	  step
-	  {
-	  echo "hello"
-	  }
-	  }
-      }
-    }
-  }
-}
+            }
+          }
+         }
+      stage( 'examine jenkins' ){
+      step{
+          echo "hello"
+          }
+       }
+   }
